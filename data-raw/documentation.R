@@ -1,10 +1,10 @@
 #' alignment4
-#' A data package for alignment4.
+#' A data package for the Alignment 4 experiment.
 #' @docType package
 #' @aliases alignment4-package
-#' @title Package Title
+#' @title Alignment 4 experiment
 #' @name alignment4
-#' @description A description of the data package
+#' @description Data and materials for the Alignment 4 experiment.
 #' @details Use \code{data(package='alignment4')$results[, 3]} to see a list of available data sets in this data package
 #'     and/or DataPackageR::load_all
 #' _datasets() to load them.
@@ -31,7 +31,7 @@ NULL
 #' \item{forecast_sd}{}
 #' \item{sample}{}
 #' }
-#' @source The data comes from________________________.
+#' @source The data was collected using Qualtrics.
 #' @seealso
 #' \link{alignment4}
 NULL

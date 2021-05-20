@@ -1,10 +1,10 @@
 ---
-title: Clean aggregation 4 data
+title: Clean alignment 4 data
 author: Shir Dekel
 date: '`r format(Sys.time())`'
 output_format: html_document
 vignette: >
-  %\VignetteIndexEntry{Clean aggregation 4 data}
+  %\VignetteIndexEntry{Clean alignment 4 data}
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 ---
@@ -13,9 +13,9 @@ Load packages and functions
 
 ```{r}
 source(DataPackageR::project_path("packages.R"))
-## project_path("R") %>%
-##   list.files(full.names = TRUE) %>%
-##   lapply(source)
+project_path("R") %>%
+  list.files(full.names = TRUE) %>%
+  lapply(source)
 ```
 
 Clean data
